@@ -12,4 +12,8 @@ export class DashboardComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  getName(name: string): string {
+    return `hola como estas ${name}, bienvenido`
+  }
+
 }

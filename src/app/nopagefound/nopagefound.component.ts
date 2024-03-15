@@ -12,4 +12,8 @@ export class NopagefoundComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  getPage(error: string) {
+    return `No se puedo encontrar la pagina: error ${error}`;
+  }
+
 }
